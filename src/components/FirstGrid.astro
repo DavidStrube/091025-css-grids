@@ -1,0 +1,29 @@
+<div class="grid-container">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+    <div class="grid-item">7</div>
+    <div class="grid-item">8</div>
+    <div class="grid-item">9</div>
+</div>
+
+<style>
+    .grid-container {
+        margin: 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 100px) minmax(100px, auto);
+        grid-auto-rows: 100px;
+        grid-gap: 40px;
+        background-color: purple;
+    }
+
+    .grid-item {
+        font-size: 2rem;
+        border: 2px solid black;
+        background-color: lavender;
+        border-radius: 10px;
+    }
+</style>
